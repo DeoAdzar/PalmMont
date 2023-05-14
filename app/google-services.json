@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "255686527680",
+    "firebase_url": "https://plant-monitoring-9fe19-default-rtdb.firebaseio.com",
+    "project_id": "plant-monitoring-9fe19",
+    "storage_bucket": "plant-monitoring-9fe19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255686527680:android:c0757233caadbc7fb9fb25",
+        "android_client_info": {
+          "package_name": "com.siska.palmmont"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255686527680-0oligl8bo3kf4vojo7jgr5hhgcjku917.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.siska.palmmont",
+            "certificate_hash": "c4c1588798e5af23f6ddf49fbf2a338a03be1369"
+          }
+        },
+        {
+          "client_id": "255686527680-8mms5vtdrtjt1sib4jef1gjnl5om6h9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcPFd12CBn37U4RFe4y-zkyliUsZ2Fkec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255686527680-8mms5vtdrtjt1sib4jef1gjnl5om6h9q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
