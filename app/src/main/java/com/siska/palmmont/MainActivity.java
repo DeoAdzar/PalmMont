@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void getData() {
         myRef.addValueEventListener(new ValueEventListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 // This method is called once with the initial value and again
@@ -62,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 ObjectData data = dataSnapshot.getValue(ObjectData.class);
                 if (data!=null){
                     displayMoisture.setText(data.getMoisture());
-                    displayTemp.setText(data.getTemp());
+                    displayTemp.setText(data.getTemp()+"\u2103");
                     displayPh.setText(data.getPh());
                     pump.setChecked(data.isPump());
                 }

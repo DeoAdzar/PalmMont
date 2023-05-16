@@ -46,7 +46,6 @@
                     android:padding="30dp"
                     android:thumb="@drawable/thumb"
                     android:elevation="5dp"
-                    android:checked="true"
                     android:scaleX="2.1"
                     android:scaleY="2.1"
                     tools:ignore="UseSwitchCompatOrMaterialXml" />
