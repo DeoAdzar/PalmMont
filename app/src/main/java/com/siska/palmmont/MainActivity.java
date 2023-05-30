@@ -23,7 +23,7 @@ import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
     FirebaseDatabase database = FirebaseDatabase.getInstance();
-    DatabaseReference myRef = database.getReference("data");// "data" iku diganti ref realtime db
+    DatabaseReference myRef = database.getReference("sensor");// "data" iku diganti ref realtime db
     TextView displayMoisture,displayPh, displayTemp;
 
     @SuppressLint("UseSwitchCompatOrMaterialCode")
@@ -63,8 +63,8 @@ public class MainActivity extends AppCompatActivity {
                 ObjectData data = dataSnapshot.getValue(ObjectData.class);
                 if (data!=null){
                     displayMoisture.setText(data.getMoisture());
-                    displayTemp.setText(data.getTemp()+"\u2103");
-                    displayPh.setText(data.getPh());
+                    displayTemp.setText(data.getTemperature()+"\u2103");
+                    displayPh.setText(data.getpH());
                     pump.setChecked(data.isPump());
                 }
 
