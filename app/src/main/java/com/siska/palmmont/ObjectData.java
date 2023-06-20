@@ -1,25 +1,25 @@
 package com.siska.palmmont;
 
 public class ObjectData {
-    String Moisture, pH, temperature;
+    String moist, pH, temp;
     boolean pump;
 
     public ObjectData() {
     }
 
-    public ObjectData(String moisture, String pH, String temperature, boolean pump) {
-        Moisture = moisture;
+    public ObjectData(String moist, String pH, String temp, boolean pump) {
+        this.moist = moist;
         this.pH = pH;
-        this.temperature = temperature;
+        this.temp = temp;
         this.pump = pump;
     }
 
-    public String getMoisture() {
-        return Moisture;
+    public String getMoist() {
+        return moist;
     }
 
-    public void setMoisture(String moisture) {
-        Moisture = moisture;
+    public void setMoist(String moist) {
+        this.moist = moist;
     }
 
     public String getpH() {
@@ -30,12 +30,12 @@ public class ObjectData {
         this.pH = pH;
     }
 
-    public String getTemperature() {
-        return temperature;
+    public String getTemp() {
+        return temp;
     }
 
-    public void setTemperature(String temperature) {
-        this.temperature = temperature;
+    public void setTemp(String temp) {
+        this.temp = temp;
     }
 
     public boolean isPump() {

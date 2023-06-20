@@ -62,8 +62,8 @@ public class MainActivity extends AppCompatActivity {
                 // whenever data at this location is updated.
                 ObjectData data = dataSnapshot.getValue(ObjectData.class);
                 if (data!=null){
-                    displayMoisture.setText(data.getMoisture());
-                    displayTemp.setText(data.getTemperature()+"\u2103");
+                    displayMoisture.setText(data.getMoist());
+                    displayTemp.setText(data.getTemp()+"\u2103");
                     displayPh.setText(data.getpH());
                     pump.setChecked(data.isPump());
                 }
