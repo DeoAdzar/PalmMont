@@ -172,7 +172,7 @@ public class MainActivity extends AppCompatActivity {
                             outer.setValue(Float.parseFloat(data.pH),0,100);
                             break;
                         case 2:
-                            displayValue.setText(data.getMoist());
+                            displayValue.setText(data.getMoist()+"%");
                             outer.setValue(Float.parseFloat(data.moist),0,100);
                             break;
                         default:
